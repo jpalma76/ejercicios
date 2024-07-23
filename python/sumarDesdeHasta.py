@@ -1,15 +1,20 @@
-def sumarDesdeHasta(num1,num2):
-    suma = 0
-    incremento = num1
-    while(incremento <= num2):
-        suma += incremento
-        incremento += 1
+'''Crea una función llamada sumarDesdeHasta que reciba dos números como parámetros y retorne la suma de los números desde el primer número hasta el segundo número.'''
+
+def sumarDesdeHasta(num1, num2):
+    contador = num1
+    while num1 <= num2:
+        #contador = 1 / 2 / 3
+        incremento = contador + 1 # 2 / 3 / 4
+        suma = contador + incremento # 3 / 7
+        num1 = num1 + 1
+        contador = contador + 1 # 2 / 3
     return suma
 
 
-print(sumarDesdeHasta(1, 5))
-print(sumarDesdeHasta(10, 20))
-print(sumarDesdeHasta(100, 200))
- # 15
- # 165
- # 15150
+
+    
+print(sumarDesdeHasta(1, 5)) # 15
+#print(sumarDesdeHasta(10, 20)) # 165
+#print(sumarDesdeHasta(100, 200)) # 15150
+
+
