@@ -3,7 +3,7 @@ function revisarAntesDeSalir(llaves, celular) {
         if (celular == true) {
             return "Todo listo, puedes salir de casa"
         } else {
-            return "Te falta el celular"
+            return "Te falta las llaves"
         }
     } else {
         return "Te falta las llaves"
