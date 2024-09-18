@@ -1,16 +1,17 @@
 def cancion_elefantes():
-    animal=1
-    while animal <= 10:
-        if animal > 1:
-            var1="balanceaban"
-            var2="fueron"
-            var3="veían"
-        else:
-            var1="balanceaba"
-            var2="fue"
-            var3="veía"
-        ##          un     elefante   valanceaba como veía que resitía fue a buscar a otro elefante
-        print(f"{animal} se {var1} sobre la tela de una araña, como {var3} que resistía {var2} a buscar a otro elefante")
-        animal = animal + 1
+    contador = 1
+    animal = "elefante"
+    var1 = "balanceaba"
+    var2 = "veía"
+    var3 = "fué"
+    while contador <=10:
+        if contador > 1:
+            animal = "elefantes"
+            var1 = "balanceaban"
+            var2 = "veían"
+            var3 = "fueron"
+
+        print(f"{contador} {animal} se {var1} sobre la tela de una araña, como {var2} que resistía, {var3} a llamar a otro elefante")
+        contador = contador + 1
 
 cancion_elefantes()
